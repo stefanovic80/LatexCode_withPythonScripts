@@ -26,23 +26,6 @@
 \DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
 \DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 %Python code
 
 
@@ -57,9 +40,6 @@
 %\makeindex[program=xindy]%, options=-C utf8 -L portuguese]%
 \usepackage{makeidx}
 \makeindex
-
-
-
 
 \usepackage{geometry}
  \geometry{
@@ -88,51 +68,6 @@ That's the first line only
 
 Here I wanna type a python code
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 %here in the case u want to make this code better
 %https://tex.stackexchange.com/questions/83882/how-to-highlight-python-syntax-in-latex-listings-lstinputlistings-command
 \lstset{language=Python, literate={-}{-}1 {*}{*}1}
@@ -160,6 +95,10 @@ for j in range(5):
 	print("that's loop number " + str(j) )
 \end{lstlisting}
 
+
+
+
+
 The question is:
 
 "does it works in the case u gonna copy and paste into a terminal? The issue with that is that it may appear a space in the code which should not be there
@@ -180,120 +119,5 @@ That's an equation
 \end{eqnarray}
 
 That's it!
-
-
-\subsection{That's a subsection}\label{SPar:rettUn}
-
-Some other equations
-
-\begin{eqnarray}\label{eq:rettUniforme}
-	v & = & \frac{\Delta s}{\Delta t} = \frac{s - s_0}{t - t_0}\\
-	a & = & 0
-\end{eqnarray}
-
-Here a picture
-
-\begin{figure}[h!]		
-	\centering
-   	\includegraphics[width=1.8in]{coppiaAlta.png}
-  	\caption{That's the caption}
-   	\label{fig:picture}
-\end{figure}
-
-\subsection{English, please}\label{SPar:unAcc}
-
-another picture
-
-
-\begin{figure}[h!]		
-	\centering
-   	\includegraphics[width=1.8in]{coppiaAlta.png}%
-  	\caption{English, please}
-   	\label{fig:graficoST_unAcce}
-\end{figure}
-
-some words here and there
-
-
-
-\section{another section}
-
-one more time a list:
-
-\begin{itemize}
-	\item Number 1
-	\item Number 2
-	\item Number 3
-\end{itemize}
-
-
-
-
-
-\subsection{Another section}
-
-I
-
-\clearpage
-
-
-
-
-
-
-
-
-
-
-\section{Here a section}
-
-in which an equation is written
-
-\begin{eqnarray}
-	B_2(t) = \frac{\mu_0\mu_r i_1(t)N_1}{l}\propto V_1(t)
-\end{eqnarray}
-
-not only one
-
-\begin{eqnarray}
-	\frac{V_1}{V_2} = \frac{N_1}{N_2}
-\end{eqnarray}
-
-Ove
-
-
-
-
-\begin{itemize}
-	\item $V_1$ \'e la tensione applicata al solenoide primario
-	\item $V_2$ \'e la tensione applicata al solenoide secondario
-	\item $N_1$ \'e il numero di spire presenti sul solenoide primario
-	\item $N_2$ \'e il numero di spire presenti sul solenoide secondario
-\end{itemize}
-
-	
-
-
-\section{Another section}\label{par:OndaMeccanica}
-
-
-From time to time clearing a page is good
-
-
-\clearpage
-
-\section{Another section}
-
-
-\clearpage
-
-\section{Last section, hopefully}\label{cap:elettromagnetiche}
-
-I don't know why, but each time a section is opened a "clearpage" command is provided behind
-
-
-
-
-
 
 \end{document}
